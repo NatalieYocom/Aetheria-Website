@@ -152,6 +152,10 @@ button {
 .primary-button,
 .secondary-button,
 .ghost-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   border-radius: 999px;
   border: 1px solid var(--border-glass);
   padding: 0.9rem 1.45rem;
@@ -202,7 +206,8 @@ button {
 
 .hero-copy h1,
 .section-header h2,
-.text-panel h2 {
+.text-panel h2,
+.cta-panel h2 {
   margin: 0;
   font-family: "Orbitron", sans-serif;
   font-weight: 700;
@@ -229,6 +234,10 @@ button {
   flex-wrap: wrap;
   gap: 16px;
   margin-top: 28px;
+}
+
+.cta-row.compact {
+  margin-top: 0;
 }
 
 .status-row {
@@ -641,6 +650,20 @@ button {
   font-size: 0.68rem;
 }
 
+.cta-band {
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.cta-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 28px 30px;
+  background: linear-gradient(135deg, rgba(0, 242, 254, 0.08), rgba(121, 40, 202, 0.12));
+}
+
 .footer {
   position: relative;
   z-index: 2;
@@ -667,7 +690,8 @@ button {
   .experience-grid,
   .stats,
   .feature-grid,
-  .community-grid {
+  .community-grid,
+  .cta-panel {
     grid-template-columns: 1fr;
   }
 
@@ -681,6 +705,11 @@ button {
 
   .mini-panel {
     right: 20px;
+  }
+
+  .cta-panel {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 

@@ -5,22 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Aetheria is a cozy VR social game and platform where people gather, build identity, and make community in shared digital spaces."
+      content="Aetheria is a cozy VR social game and platform where people gather, express themselves, and build community in warm, lived-in worlds."
     />
-    <title>Aetheria | Cozy VR Social Worlds</title>
+    <title>Aetheria | Social Worlds for People Who Want to Stay</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:wght@600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="page-shell">
-      <div class="ambient ambient-one"></div>
-      <div class="ambient ambient-two"></div>
-      <div class="ambient ambient-three"></div>
+      <div class="blob blob-one"></div>
+      <div class="blob blob-two"></div>
+      <div class="blob blob-three"></div>
 
       <header class="topbar container">
         <div class="brand" aria-label="Aetheria home">
@@ -37,54 +34,51 @@
 
         <div class="nav-actions">
           <a class="ghost-button" href="https://github.com/NatalieYocom/Aetheria" target="_blank" rel="noreferrer">Project Repo</a>
-          <button class="primary-button">Join the Social Layer</button>
+          <button class="solid-button">Join the Layer</button>
         </div>
       </header>
 
       <main>
         <section class="hero container">
           <div class="hero-copy">
-            <p class="eyebrow">VR social platform • cozy worlds • expressive presence</p>
-            <h1>A softer place to gather, explore, and belong.</h1>
+            <p class="eyebrow">VR social game • cozy worlds • human connection</p>
+            <h1>The social layer for people who want to stay awhile.</h1>
             <p class="lede">
-              Aetheria is a VR social game and platform built around people, presence, and shared space.
-              Similar in spirit to VRChat, but shaped around warmer interaction, more intimate communities,
-              and dreamlike social worlds that feel alive.
+              Aetheria is a warm, expressive social platform where friends gather, identities bloom,
+              and digital spaces feel lived in. Built for VR and flatscreen play, it brings people together
+              through presence, conversation, and imagination.
             </p>
 
             <div class="cta-row">
-              <button class="primary-button">Explore the World</button>
-              <a class="secondary-button" href="https://github.com/NatalieYocom/Aetheria-Social-Backend" target="_blank" rel="noreferrer">Social Backend</a>
+              <button class="solid-button">Explore the World</button>
+              <a class="soft-button" href="https://github.com/NatalieYocom/Aetheria-Social-Backend" target="_blank" rel="noreferrer">Social Backend</a>
             </div>
 
-            <div class="status-row" aria-label="Current project status">
-              <div class="status-pill">
-                <span class="dot dot-rose"></span>
-                Planning Stage
-              </div>
-              <div class="status-pill">
-                <span class="dot dot-sage"></span>
-                VR + Flatscreen
-              </div>
+            <div class="status-row">
+              <span class="pill"><i class="dot dot-rose"></i> Planning Stage</span>
+              <span class="pill"><i class="dot dot-sage"></i> VR + Flatscreen</span>
             </div>
           </div>
 
-          <div class="hero-visual" aria-label="Aetheria social world preview">
-            <div class="dashboard-panel main-panel glass-panel">
-              <div class="panel-header">
-                <span class="label-chip">LIVING LAYER</span>
-                <span class="signal-indicator">ONLINE</span>
+          <div class="hero-art" aria-label="Aetheria community preview">
+            <div class="scene-panel">
+              <div class="scene-top">
+                <span class="badge">Living Layer</span>
+                <span class="online">Online</span>
               </div>
 
-              <div class="orbital-display">
+              <div class="garden-scene">
+                <div class="orb orb-main"></div>
+                <div class="orb orb-small orb-left"></div>
+                <div class="orb orb-small orb-right"></div>
                 <div class="petal petal-a"></div>
                 <div class="petal petal-b"></div>
                 <div class="petal petal-c"></div>
-                <div class="bloom bloom-one"></div>
-                <div class="bloom bloom-two"></div>
+                <div class="ring ring-one"></div>
+                <div class="ring ring-two"></div>
               </div>
 
-              <div class="panel-metrics">
+              <div class="mini-stats">
                 <div>
                   <span>Guilds</span>
                   <strong>18</strong>
@@ -95,139 +89,131 @@
                 </div>
                 <div>
                   <span>Energy</span>
-                  <strong>High</strong>
+                  <strong>Warm</strong>
                 </div>
               </div>
             </div>
 
-            <div class="mini-panel glass-panel">
-              <p class="mini-label">WORLD STATE</p>
-              <div class="mini-metric">
-                <span>Atmosphere</span>
-                <strong>Warm</strong>
-              </div>
-              <div class="mini-bar">
-                <span></span>
-              </div>
+            <div class="float-card">
+              <p class="float-label">World Mood</p>
+              <strong>Dreamy</strong>
+              <div class="warm-bar"><span></span></div>
             </div>
           </div>
         </section>
 
-        <section id="about" class="stats container" aria-label="Aetheria highlights">
-          <div class="stat-card glass-panel">
+        <section id="about" class="stats container">
+          <article class="stat-card">
             <span class="stat-label">Presence</span>
-            <strong>Expressive</strong>
-            <p>Player identity is visible, memorable, and felt in every social space.</p>
-          </div>
-          <div class="stat-card glass-panel">
+            <h3>Expressive</h3>
+            <p>Identity feels personal and alive, from how you move to how you show up.</p>
+          </article>
+
+          <article class="stat-card">
             <span class="stat-label">Spaces</span>
-            <strong>Welcoming</strong>
-            <p>Cozy hangouts, dreamlike districts, and rooms built for actual connection.</p>
-          </div>
-          <div class="stat-card glass-panel">
+            <h3>Welcoming</h3>
+            <p>Cozy rooms, social rituals, and hangout spaces built for actual connection.</p>
+          </article>
+
+          <article class="stat-card">
             <span class="stat-label">Experience</span>
-            <strong>Shared</strong>
-            <p>VR and flatscreen play come together in one living social world.</p>
-          </div>
+            <h3>Shared</h3>
+            <p>VR and flatscreen play meet in a single living social world.</p>
+          </article>
         </section>
 
         <section id="worlds" class="feature-section container">
           <div class="section-header">
             <p class="eyebrow">Dream Districts</p>
-            <h2>Made for lingering, laughing, and making worlds together.</h2>
+            <h2>Made for lingering, laughing, and building a life in the world.</h2>
           </div>
 
           <div class="feature-grid">
-            <article class="feature-card glass-panel">
+            <article class="feature-card">
               <div class="feature-icon rose">01</div>
               <h3>Garden Rooms</h3>
-              <p>
-                Soft spaces for hanging out, making art, and sharing little rituals with friends.
-              </p>
+              <p>Chill spaces for conversation, art, music, and shared rituals with friends.</p>
             </article>
 
-            <article class="feature-card glass-panel">
+            <article class="feature-card">
               <div class="feature-icon lilac">02</div>
               <h3>Avatar Identity</h3>
-              <p>
-                Express yourself through presence, fashion, movement, and personality that feels alive.
-              </p>
+              <p>Show up in a way that feels like you, with personality that is expressive and memorable.</p>
             </article>
 
-            <article class="feature-card glass-panel">
+            <article class="feature-card">
               <div class="feature-icon sage">03</div>
               <h3>Player Culture</h3>
-              <p>
-                Create events, communities, and memories in spaces built by the people who inhabit them.
-              </p>
+              <p>Create events, communities, and little moments that make a world feel real.</p>
             </article>
           </div>
         </section>
 
         <section id="culture" class="experience-grid container">
-          <div class="experience-panel glass-panel text-panel">
+          <div class="story-box left-box">
             <p class="eyebrow">Social Architecture</p>
             <h2>Not just a room. A place where communities bloom.</h2>
             <p>
-              Aetheria leans into the emotional feel of shared digital spaces: welcoming, playful,
-              personal, and always alive with small moments that turn into memories.
+              Aetheria is built around the feeling of being together: warm conversations, playful moments,
+              personal expression, and spaces that encourage people to stay a little longer.
             </p>
             <ul class="check-list">
-              <li>Comfortable social spaces designed for conversation and play</li>
+              <li>Comfortable social spaces designed for real connection</li>
               <li>Identity systems that feel personal and expressive</li>
               <li>Community rituals that make the world feel lived in</li>
             </ul>
           </div>
 
-          <div class="experience-panel glass-panel data-panel" aria-label="Community activity chart">
-            <div class="panel-topline">
-              <span class="panel-label">COMMUNITY PULSE</span>
-              <span class="pulse-value">+18.6%</span>
+          <div class="story-box chart-box">
+            <div class="chart-header">
+              <span>Community Pulse</span>
+              <strong>+18.6%</strong>
             </div>
-
             <div class="bars" aria-hidden="true">
-              <span style="height: 44%"></span>
-              <span style="height: 62%"></span>
-              <span style="height: 57%"></span>
-              <span style="height: 75%"></span>
-              <span style="height: 81%"></span>
+              <span style="height: 42%"></span>
+              <span style="height: 58%"></span>
+              <span style="height: 52%"></span>
+              <span style="height: 76%"></span>
+              <span style="height: 82%"></span>
               <span style="height: 90%"></span>
-              <span style="height: 68%"></span>
+              <span style="height: 74%"></span>
             </div>
           </div>
         </section>
 
         <section id="roadmap" class="community-section container">
-          <div class="section-header align-left">
+          <div class="section-header left-align">
             <p class="eyebrow">Roadmap</p>
             <h2>Building a world that feels alive from the first hello.</h2>
           </div>
 
           <div class="community-grid">
-            <div class="story-card glass-panel">
-              <p class="story-kicker">01 // Dream</p>
-              <h3>Define the emotional tone of the social spaces and player experience.</h3>
-            </div>
-            <div class="story-card glass-panel">
-              <p class="story-kicker">02 // Build</p>
-              <h3>Prototype the social layer, avatars, and immersive hangout flows.</h3>
-            </div>
-            <div class="story-card glass-panel">
-              <p class="story-kicker">03 // Grow</p>
+            <article class="community-card">
+              <p class="card-kicker">01 // Dream</p>
+              <h3>Define the moods, identity systems, and social rituals that make the world feel human.</h3>
+            </article>
+
+            <article class="community-card">
+              <p class="card-kicker">02 // Build</p>
+              <h3>Prototype the social layer, avatar flows, and spaces that invite people to gather.</h3>
+            </article>
+
+            <article class="community-card">
+              <p class="card-kicker">03 // Grow</p>
               <h3>Open the world to communities that bring it to life with their own culture.</h3>
-            </div>
+            </article>
           </div>
         </section>
 
         <section class="cta-band container">
-          <div class="cta-panel glass-panel">
+          <div class="cta-panel">
             <div>
               <p class="eyebrow">Join the invitation</p>
               <h2>Let’s make a social world people want to stay in.</h2>
             </div>
             <div class="cta-row compact">
-              <a class="primary-button" href="https://github.com/NatalieYocom/Aetheria" target="_blank" rel="noreferrer">GitHub</a>
-              <a class="secondary-button" href="https://github.com/NatalieYocom/Aetheria-Unity" target="_blank" rel="noreferrer">Unity Client</a>
+              <a class="solid-button" href="https://github.com/NatalieYocom/Aetheria" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="soft-button" href="https://github.com/NatalieYocom/Aetheria-Unity" target="_blank" rel="noreferrer">Unity Client</a>
             </div>
           </div>
         </section>
@@ -238,10 +224,12 @@
           <span class="brand-mark">A</span>
           <span class="brand-label">Aetheria</span>
         </div>
-        <p>© <span id="year"></span> Aetheria. Social spaces for people who want to linger.</p>
+        <p>© <span id="year"></span> Aetheria. Social worlds for people who want to linger.</p>
       </footer>
     </div>
 
     <script src="./script.js"></script>
   </body>
 </html>
+
+
